@@ -8,6 +8,11 @@ self.addEventListener('install', function(event) {
     caches.open('v1').then(function(cache) {
       return cache.addAll(
         [
+          '',
+          '/',
+          'index.html',
+          'blog.html',
+          'works.html',
           'css/animate.css',
           'css/animations.css',
           'css/bootstrap.css',
